@@ -1,0 +1,6 @@
+package-as: LibGossipQuestInfo
+
+ignore:
+    - README.md
+    - CONTRIBUTING.md
+
