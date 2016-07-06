@@ -15,9 +15,9 @@ local isBetaClient = select(4, GetBuildInfo())
 function GetAvailableGossipQuestInfo(index)
 	local name, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
 	if(isBetaClient) then
-		name, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored = select((index * 7) - 7, GetGossipAvailableQuests())
+		name, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored = select(((index * 7) - 7) + 1, GetGossipAvailableQuests())
 	else
-		name, level, isTrivial, frequency, isRepeatable, isLegendary = select((index * 6) - 6, GetGossipAvailableQuests())
+		name, level, isTrivial, frequency, isRepeatable, isLegendary = select(((index * 6) - 6) + 1, GetGossipAvailableQuests())
 		isIgnored = false
 	end
 
@@ -37,9 +37,9 @@ end
 function GetActiveGossipQuestInfo(index)
 	local name, level, isTrivial, isComplete, isLegendary, isIgnored
 	if(isBetaClient) then
-		name, level, isTrivial, isComplete, isLegendary, isIgnored = select((index * 6) - 6, GetGossipActiveQuests())
+		name, level, isTrivial, isComplete, isLegendary, isIgnored = select(((index * 6) - 6) + 1, GetGossipActiveQuests())
 	else
-		name, level, isTrivial, isComplete, isLegendary = select((index * 5) - 5, GetGossipActiveQuests())
+		name, level, isTrivial, isComplete, isLegendary = select(((index * 5) - 5) + 1, GetGossipActiveQuests())
 		isIgnored = false
 	end
 
