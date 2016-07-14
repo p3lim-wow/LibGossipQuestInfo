@@ -1,4 +1,4 @@
-local isBetaClient = select(4, GetBuildInfo())
+local isBetaClient = select(4, GetBuildInfo()) >= 70000
 
 --- API that returns information about available quests in the gossip window.
 -- @name GetAvailableGossipQuestInfo
