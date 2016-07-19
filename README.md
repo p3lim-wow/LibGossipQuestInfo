@@ -1,7 +1,7 @@
 # LibGossipQuestInfo
 
 This is an addon for the popular MMORPG "World of Warcraft".  
-It can be downloaded at [Curse](http://curse.com/addons/wow/libgossipquestinfo) or at [WoWInterface](http://wowinterface.com/downloads/info000000).
+It can be downloaded at [Curse](http://curse.com/addons/wow/libgossipquestinfo) or at [WoWInterface](http://wowinterface.com/downloads/info24057).
 
 ## Description
 
