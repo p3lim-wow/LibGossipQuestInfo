@@ -1,5 +1,4 @@
 package-as: LibGossipQuestInfo
 
 ignore:
-    - README.md
-
+  - README.md
