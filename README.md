@@ -13,7 +13,7 @@ Please see the wiki for usage:
 ## Feedback
 
 If you have a question, please use the comments section on Curse/WoWInterface.  
-If you would like to report a bug or contribute to the project, please follow [this link](https://github.com/p3lim-wow/LibGossipQuestInfo/blob/master/CONTRIBUTING.md) to get started.
+If you would like to report a bug or contribute to the project, please follow [this link](//github.com/p3lim-wow/LibGossipQuestInfo/issues?q=) to get started.
 
 ## Legal
 
